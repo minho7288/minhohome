@@ -1,0 +1,85 @@
+*{margin:0;}
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none;}
+
+header{width: 100%; border-bottom: 1px solid #D0D0D0 ;background-color: white;}
+header > nav{margin: auto; width: 102.4rem; height: 10rem;
+display: flex; justify-content: space-between;; align-items: center;}
+
+header > nav > .menu{display: inline-block; }
+header > nav > .menu > ul{list-style: none;}
+header > nav > .menu > ul > li {float: left; margin : 0rem 4rem;}
+header > nav > .menu > ul > li > a {font-family: 'Noto Sans KR', sans-serif;
+color : gray; font-size: 2rem; font-weight: 500;}
+
+header > nav > .menu > ul > li > a:hover {color: orange;}
+
+section > .keyvisual {background-image: url('../img/02_keyvisual_bg.png'); height: 96.6rem;}
+section > .keyvisual > .keyvisual_wrap {margin :auto; width: 102.4rem; height :8000px;}
+section > .keyvisual > .keyvisual_wrap > .keyvisual_title {text-align: center; padding-top: 39.8rem;}
+
+section > .profile{background-image: url('../img/04_profile.png');height:154.8rem;}
+section > .profile > .profile_wrap{margin: auto; width:102.4rem;}
+section > .profile > .profile_wrap > .profile_01{padding-top: 7.5rem;}
+section > .profile > .profile_wrap > .profile_02{margin-top: 2.0rem;}
+section > .profile > .profile_wrap > .profile_03{margin-top: 5.4rem;}
+section > .profile > .profile_wrap > .profile_04{margin-top: 5.4rem;}
+
+section > .contents{background-image: url('../img/05_contents.png');height: 89.8rem;}
+section > .contents > .contents_wrap {margin: auto;width: 102.4rem; text-align: center;}
+section > .contents > .contents_wrap > .contents_01{padding-top: 13.9rem;}
+section > .contents > .contents_wrap > .contents_02{margin-top: 8.5rem;}
+
+/*--portfolio1 --*/
+section > .pf_1{background-color: #FFDCDC; height: 130.0rem;}
+section > .pf_1 > .pf_wrap{margin: auto;width: 140.0rem; text-align: center;}
+section > .pf_1 > .pf_wrap > .pf_tit_1{padding-top: 4.4rem;}
+section > .pf_1 > .pf_wrap > .pf_img_1{margin-top: 2rem;}
+section > .pf_1 > .pf_wrap > .pf_txt_1{margin-top: 4.3rem; }
+/*--portfolio2 --*/
+section > .pf_2{background-color: #D1D1D1; height: 130.0rem;}
+section > .pf_2 > .pf_wrap{margin: auto;width: 140.0rem;text-align: center;}
+section > .pf_2 > .pf_wrap > .pf_img_2{padding-top: 2.0rem;}
+section > .pf_2 > .pf_wrap > .pf_txt_2{margin-top: 6.6rem; }
+/*--portfolio3 --*/
+section > .pf_3{background-image: url('../img/07_pf_3.png'); height: 130.2rem;}
+section > .pf_3 > .pf_wrap{margin: auto;width: 140.0rem; text-align: center;}
+section > .pf_3 > .pf_wrap > .pf_tit_3{padding-top: 12.7rem;}
+section > .pf_3 > .pf_wrap > .pf_img_3{margin-top: 15.0rem;}
+section > .pf_3 > .pf_wrap > .pf_txt_3{margin-top: 4.3rem; }
+/*--portfolio4 --*/
+section > .pf_4{background-color: #B9B9B9; height: 130.0rem;}
+section > .pf_4 > .pf_wrap{margin: auto;width: 140.0rem; text-align: center;}
+section > .pf_4 > .pf_wrap > .pf_img_4{padding-top:  2rem;}
+section > .pf_4 > .pf_wrap > .pf_txt_4{margin-top: 0.0rem; }
+/*--portfolio5 --*/
+section > .pf_5{background-color: #DE4853; height: 130.0rem;}
+section > .pf_5 > .pf_wrap{margin: auto;width: 140.0rem; text-align: center;}
+section > .pf_5 > .pf_wrap > .pf_tit_5{padding-top: 8.1rem;}
+section > .pf_5 > .pf_wrap > .pf_img_5{margin-top: 6.3rem;}
+section > .pf_5 > .pf_wrap > .pf_txt_5{margin-top: 4.3rem; }
+
+/*--portfolio6 --*/
+section > .pf_6{background-image: url('../img/08_pf_6.png'); height: 130.0rem;background-size: cover;}
+section > .pf_6 > .pf_wrap{margin: auto;width: 140.0rem; text-align: center;}
+section > .pf_6 > .pf_wrap > .pf_tit_6{padding-top: 16.1rem;}
+section > .pf_6 > .pf_wrap > .pf_img_6{margin-top: 6.3rem;}
+section > .pf_6 > .pf_wrap > .pf_txt_6{margin-top: 4.3rem; }
+
+/*--portfolio7 --*/
+section > .pf_7{background-color: #3079B8; height: 130.0rem;}
+section > .pf_7 > .pf_wrap{margin: auto;width: 140.0rem; text-align: center;}
+section > .pf_7 > .pf_wrap > .pf_tit_7{padding-top: 13.4rem;}
+section > .pf_7 > .pf_wrap > .pf_img_7{margin-top: 6.3rem;}
+section > .pf_7 > .pf_wrap > .pf_txt_7{margin-top: 4.3rem; }
+
+
+
+
+
+footer{background-color: #969696; height: 11rem;}
+footer > .footer_wrap{margin:auto;width: 102.4rem;}
+footer > .footer_wrap > .footer_logo{float: left;padding-top: 4.2rem;}
+footer > .footer_wrap > .footer_txt{float: right;padding-top: 3rem; text-align: right; font-family: 'Noto Sans KR',sans-serif;
+font-size: 1.2rem; font-weight: 300; letter-spacing: -0.03rem; color: #ffffff;}

@@ -1,0 +1,48 @@
+*{margin: 0}
+
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none; color: #ffffff;}
+
+
+header{height:10.0rem;text-align: center;}
+header > .logo{padding-top: 0.8rem;}
+
+section > .keyvisual{text-align: center;background-image:
+url('../img/m_03.png');height: 44.8rem;}
+section > .keyvisual > img{padding-top: 14.6rem;}
+
+section > .profile{background-image: url('../img/m_08.png');height: 65.1rem; }
+
+.pf_01, .pf_02, .pf_03, .pf_04{text-align: left; margin-left: 5.0rem;}
+
+section > .profile > .pf_01{padding-top: 1.9rem;}
+section > .profile > .pf_02{margin-top: 2.3rem;}
+section > .profile > .pf_03{margin-top:0.2rem; }
+section > .profile > .pf_04{margin-top: 2.3rem;}
+
+
+section > .contents{background-image: url('../img/m_10.png'); height: 32.5rem;text-align: center;padding-top: 4.6rem;}
+
+.pf1, .pf2, .pf3, .pf4, .pf5, .pf6, .pf7{
+  text-align: center;
+}
+
+section > .pf1{background-color: #FFDCDC;height: 57.8rem;}
+section > .pf2{background-color: #D1D1D1;height: 56.1rem;}
+section > .pf3{background-image:url('../img/m_18.png'); height: 58.7rem;}
+section > .pf4{background-color:#B9B9B9; height: 58.8rem;}
+section > .pf5{background-color:#DE4853; height: 114.4rem;}
+section > .pf6{background-image: url('../img/m_19.png');height: 64.7rem;}
+section > .pf7{background-color:#3079B8;height: 65.9rem; }
+
+section > .pf1 >img{margin-top: 2.0rem;}
+section > .pf2 >img{margin-top: 0.8rem;}
+section > .pf3 >img{margin-top: 4.5rem;}
+section > .pf4 >img{margin-top: 2.5rem;}
+section > .pf5 >img{margin-top: 5.4rem;}
+section > .pf6 >img{margin-top: 3.5rem;}
+section > .pf7 >img{margin-top: 5.9rem;}
+
+footer{background-color: #878787; height:16.1rem; text-align: center;}
+footer > img{margin-top: 2.2rem;}
